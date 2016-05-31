@@ -151,7 +151,7 @@ namespace AppGameTrueFalse
                 diem.Text = "score: " + score.ToString();
 
                 //amthanhclick.Source = new Uri("/Assets/beepclick.mp3", UriKind.RelativeOrAbsolute);
-                //amthanhclick.Play();
+                //amthanhclick.Play(); 
                 amthanh.Play();        
                 Kiemtra();
             }
