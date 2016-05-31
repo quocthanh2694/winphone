@@ -147,7 +147,7 @@ namespace AppGameTrueFalse
             ProgressBar();
             if (gtdung == false)
             {
-                score = score + 1;
+                score = score + 1; 
                 diem.Text = "score: " + score.ToString();
 
                 //amthanhclick.Source = new Uri("/Assets/beepclick.mp3", UriKind.RelativeOrAbsolute);
