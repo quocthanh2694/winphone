@@ -13,7 +13,7 @@ using System.Windows.Media.Animation;
 namespace AppGameTrueFalse
 {
     public partial class MainPage : PhoneApplicationPage
-    { 
+    {   
         Random r;
         bool gtdung;
         int so1 = 0, so2 = 0, kq = 0, kqdc = 0, kqdt = 0, score, sorandtr2 = 0, sorandsau2 = 0, pageso = 0;
