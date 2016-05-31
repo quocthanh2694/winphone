@@ -13,6 +13,7 @@ namespace AppGameTrueFalse
         //dau tien la commit 2 dong nay len github
         // CAI NAY LA GHI THEM--------------------------
         //commit lan 1
+        //commit lan 2
         public AppResources LocalizedResources { get { return _localizedResources; } }
     }
 }
