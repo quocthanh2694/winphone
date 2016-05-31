@@ -8,7 +8,7 @@ namespace AppGameTrueFalse
     public class LocalizedStrings
     {
         private static AppResources _localizedResources = new AppResources();
-
+        // git hub
         public AppResources LocalizedResources { get { return _localizedResources; } }
     }
 }
