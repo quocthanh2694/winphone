@@ -9,6 +9,8 @@ namespace AppGameTrueFalse
     {
         private static AppResources _localizedResources = new AppResources();
         // git hub
+        //gio t up len ben t, xong lay xuong ben m
+        //dau tien la commit 2 dong nay len github
         public AppResources LocalizedResources { get { return _localizedResources; } }
     }
 }
