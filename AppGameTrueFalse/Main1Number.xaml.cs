@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using System.Windows.Media.Animation;
 using System.Threading;
+using System.Windows.Threading;
 //using Windows.UI.Xaml.Navigation;
 
 
@@ -18,8 +19,15 @@ namespace AppGameTrueFalse
     {
         Random r;
         bool gtdung;
-        int so1=0, so2=0, kq=0,kqdc=0,kqdt=0,sorandtr2=0,sorandsau2=0,score,pageso=0;   
-  
+        int so1=0, so2=0, kq=0,kqdc=0,kqdt=0,sorandtr2=0,sorandsau2=0,score,pageso=0;
+        private DispatcherTimer dispatcherTimer;
+        // Constructor
+        int demTG=0,i=0;
+        int thoiGianbanDau = 150;
+        int thoiGianTruDi1Lan = 5;
+        int thoiGianCoDinh = 35;
+        int thoiGianTickMilisecond = 35;
+
         public int SoSanh2So(int a,int b)
         {
             if(a > b)
@@ -129,23 +137,80 @@ namespace AppGameTrueFalse
 
 
         }
+
+
+
+
+       
+        private void dispatcherTimer_Tick(object sender, EventArgs e)
+        {
+            progressBar.Value = demTG;
+            //do whatever you want to do here
+            time.Text = "Time: " + demTG;
+            demTG = demTG - 1;
+            //Thread.Sleep(10);
+            if (demTG == 0)
+            {
+                GameOver();
+            }
+
+
+        }
+        public void TimerTick()
+        {
+            dispatcherTimer.Stop();
+           
+
+
+            dispatcherTimer.Start();
+        }
         public MainPlus1Number()
         {
             InitializeComponent();
+
+            demTG = thoiGianbanDau;
+
+            progressBar.Maximum = demTG;
+            progressBar.Value = demTG;
+
+            dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 0, 0, thoiGianTickMilisecond);
+
+            TimerTick();
+
             amthanh.Source = new Uri("/Assets/nhacspectre.mp3", UriKind.RelativeOrAbsolute);
             pageso = 1;
             amthanh.Play();
-            ProgressBar();
             Kiemtra();
         }
+        void GameOver()
+        {
+            dispatcherTimer.Stop();
 
-        private void dung_Click(object sender, RoutedEventArgs e)
+            Uri newPage = new Uri("/Page2.xaml", UriKind.Relative);
+            NavigationService.Navigate(newPage);
+            (App.Current as App).score = score;
+            (App.Current as App).pageso = pageso;
+        }
+        void SetTime()
         {
             
+                demTG = thoiGianbanDau - i;
+            if (demTG < thoiGianCoDinh)
+                demTG = thoiGianCoDinh;
+            progressBar.Maximum = demTG;
+            i+=thoiGianTruDi1Lan;
+            TimerTick();
+        }
+        private void dung_Click(object sender, RoutedEventArgs e)
+        {
+
+            SetTime();
             if (gtdung == true)
             {
                 score = score +1;
-                diem.Text = "score: " + score.ToString();
+                diem.Text = "Score: " + score.ToString();
 
                 //amthanhclick.Source = new Uri("/Assets/beepclick.mp3", UriKind.RelativeOrAbsolute);
                 //amthanhclick.Play();
@@ -154,21 +219,19 @@ namespace AppGameTrueFalse
             }           
             else
             {
-                Uri newPage = new Uri("/Page2.xaml", UriKind.Relative);
-                NavigationService.Navigate(newPage);
-                (App.Current as App).score = score;
-                (App.Current as App).pageso = pageso;
+                GameOver();
             }
             ProgressBar();
         }
 
         private void sai_Click(object sender, RoutedEventArgs e)
         {
-            ProgressBar();
+            SetTime();
+
             if (gtdung == false)
             {
                 score = score + 1; 
-                diem.Text = "score: " + score.ToString();
+                diem.Text = "Score: " + score.ToString();
 
                 //amthanhclick.Source = new Uri("/Assets/beepclick.mp3", UriKind.RelativeOrAbsolute);
                 //amthanhclick.Play(); 
@@ -177,10 +240,7 @@ namespace AppGameTrueFalse
             }
             else
             {
-                Uri newPage = new Uri("/Page2.xaml", UriKind.Relative);
-                NavigationService.Navigate(newPage);
-                (App.Current as App).score = score;
-                (App.Current as App).pageso = pageso;
+                GameOver();
             }
         }
     }

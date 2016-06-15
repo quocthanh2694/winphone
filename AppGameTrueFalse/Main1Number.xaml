@@ -121,7 +121,7 @@
                 </TextBlock.Foreground>
             	<Run Text="25"/>
             </TextBlock>
-            <ProgressBar HorizontalAlignment="Left" Height="10" Margin="0,76,0,0" VerticalAlignment="Top" Name="progressBar" Width="456" Maximum="200" Value="200" Foreground="#FF46FF00" />
+            <ProgressBar Height="25" Margin="0,76,0,0" VerticalAlignment="Top" Name="progressBar" Maximum="200" Value="200" Foreground="#FF46FF00" Background="White" BorderBrush="Black" HorizontalAlignment="Right" Width="456" RenderTransformOrigin="0.492,0.477" />
 
             <MediaElement x:Name="amthanhclick" HorizontalAlignment="Left" Height="100" Margin="57,106,0,0" VerticalAlignment="Top" Width="100"/>
 

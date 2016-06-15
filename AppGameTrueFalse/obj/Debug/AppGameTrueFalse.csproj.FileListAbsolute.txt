@@ -68,3 +68,4 @@ D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Navigation.xm
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\en-GB\Navigation.Properties.Resources.resw
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation.pri
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\qualifiers.txt
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Help.g.cs

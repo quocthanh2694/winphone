@@ -35,5 +35,11 @@ namespace AppGameTrueFalse
             Uri newPage = new Uri("/OptionPage.xaml", UriKind.Relative);
             NavigationService.Navigate(newPage);
         }
+
+        private void help_Click(object sender, RoutedEventArgs e)
+        {
+            Uri newPage = new Uri("/Help.xaml", UriKind.Relative);
+            NavigationService.Navigate(newPage);
+        }
     }
 }
