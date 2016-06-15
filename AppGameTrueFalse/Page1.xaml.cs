@@ -41,5 +41,35 @@ namespace AppGameTrueFalse
             Uri newPage = new Uri("/Help.xaml", UriKind.Relative);
             NavigationService.Navigate(newPage);
         }
+
+        private void quit_Click(object sender, RoutedEventArgs e)
+        {
+           
+            Deployment.Current.Dispatcher.BeginInvoke(() =>
+            {
+                MessageBoxResult mbr = MessageBox.Show("Are you sure you want to exit game?", "Warning", MessageBoxButton.OKCancel);
+
+                if (mbr == MessageBoxResult.OK)
+                {
+                    Application.Current.Terminate();
+                }
+                else
+                {
+                }
+            });
+
+            //var messageDialog = new Windows.UI.Popups.MessageDialog("", "");
+            //var messgeDialog = new MessageDialog("<message>");
+            //messgeDialog.Commands.Add(new UICommand("Yes"));
+            //messgeDialog.Commands.Add(new UICommand("No"));
+            //messgeDialog.DefaultCommandIndex = 0;
+            //messgeDialog.CancelCommandIndex = 1;
+            //var result = await messgeDialog.ShowAsync();
+            //if (result.Label.Equals("Yes"))
+            //{
+
+            //}
+
+        }
     }
 }

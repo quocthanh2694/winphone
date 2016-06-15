@@ -64,7 +64,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="quit" Content="Quit" HorizontalAlignment="Left" Margin="45,528,0,0" VerticalAlignment="Top" Height="87" Width="366" FontWeight="Bold" FontSize="30" BorderBrush="Black" Opacity="0.8">
+            <Button x:Name="quit" Content="Quit" HorizontalAlignment="Left" Margin="45,528,0,0" VerticalAlignment="Top" Height="87" Width="366" FontWeight="Bold" FontSize="30" BorderBrush="Black" Opacity="0.8" Click="quit_Click">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF0280FF"/>

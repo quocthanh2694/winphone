@@ -16,7 +16,7 @@
   </Resources>
   <Applications>
     <Application Id="x1bb74c06yc2cdy4dcfya9fbyab9f66d12f43x" Executable="AGHost.exe" EntryPoint="Page1.xaml">
-      <m3:VisualElements DisplayName="FreakingMath" Square150x150Logo="Assets\SquareTile150x150.png" Square44x44Logo="Assets\Logo.png" Description="AppGameTrueFalse" ForegroundText="light" BackgroundColor="#464646">
+      <m3:VisualElements DisplayName="FreakingMath" Square150x150Logo="Assets\SquareTile150x150.png" Square44x44Logo="Assets\Logo.png" Description="FreakingMath" ForegroundText="light" BackgroundColor="#464646">
         <m3:DefaultTile Square71x71Logo="Assets\SquareTile71x71.png">
         </m3:DefaultTile>
         <m3:SplashScreen Image="Assets\Splashscreen.png" />

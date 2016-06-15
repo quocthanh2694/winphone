@@ -1,26 +1,3 @@
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\ApplicationIcon.png
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\Tiles\IconicTileSmall.png
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse.dll
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse.pdb
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppManifest.xaml
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Properties\WMAppManifest.xml
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse_Debug_AnyCPU.xap
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\App.g.cs
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.g.resources
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.Resources.AppResources.resources
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.csproj.GenerateResource.Cache
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.dll
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.pdb
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\XapCacheFile.xml
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Page1.g.cs
-c:\users\thuy\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Page2.g.cs
-C:\Users\THUY\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Main2Number.g.cs
-C:\Users\THUY\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Main1Number.g.cs
-C:\Users\THUY\documents\visual studio 2015\Projects\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\OptionPage.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\ApplicationIcon.png
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
@@ -31,11 +8,16 @@ D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFa
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse.pdb
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\resources.pri
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppxManifest.xml
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse.build.appxrecipe
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\FreakingMath.build.appxrecipe
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Properties\WMAppManifest.xml
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppManifest.xaml
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse_Debug_AnyCPU.xap
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\CS.Windows.Controls.dll
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Navigation.dll
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\CS.Windows.Controls.pdb
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Navigation.xml
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\App.g.cs
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Help.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Main2Number.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Main1Number.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\OptionPage.g.cs
@@ -43,9 +25,12 @@ D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Page1.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Page2.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.g.resources
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.Resources.AppResources.resources
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.csproj.GenerateResource.Cache
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\FreakingMath.csproj.GenerateResource.Cache
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.dll
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.pdb
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\en-GB\Navigation.Properties.Resources.resw
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation.pri
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\qualifiers.txt
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\priconfig.xml
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\priconfig.xml.intermediate
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\layout.resfiles
@@ -60,15 +45,6 @@ D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\MultipleQuali
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\ProjectArchitectures.txt
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\MDILProjectFiles.xml
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\XapCacheFile.xml
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.csprojResolveAssemblyReference.cache
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\CS.Windows.Controls.dll
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Navigation.dll
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\CS.Windows.Controls.pdb
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Navigation.xml
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\en-GB\Navigation.Properties.Resources.resw
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation.pri
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\qualifiers.txt
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Help.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\layout.resfiles
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\layout.resfiles.intermediate
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\Resources.resfiles
