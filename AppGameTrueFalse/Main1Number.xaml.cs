@@ -7,6 +7,10 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.Windows.Media.Animation;
+using System.Threading;
+//using Windows.UI.Xaml.Navigation;
+
 
 namespace AppGameTrueFalse
 {
@@ -101,14 +105,29 @@ namespace AppGameTrueFalse
                 }
             }
         }
-        public void ProgressBar()
+        private void ProgressBar()
         {
-            progressBar.Maximum = 2;
-            progressBar.Value = 2;
-            for (int i = 2; i > 0; i--)
-            {
-                progressBar.Value = progressBar.Value - i;
-            }
+            //var storyboard = new Storyboard();
+
+            //var animation = new DoubleAnimation { Duration = TimeSpan.FromSeconds(2), From = 100, To = 0, EnableDependentAnimation = true };
+
+            //Storyboard.SetTarget(animation, this.progressBar);
+            //Storyboard.SetTargetProperty(animation, "Value");
+
+            //storyboard.Children.Add(animation); 
+
+            //storyboard.Begin();
+
+            //progressBar.Value = 100;
+            //progressBar.Maximum = 100;
+            //for (int i = 100; i > 0; i--)
+            //{
+            //    progressBar.Value--;
+            //   // Thread.Sleep(100);
+
+            //}
+
+
         }
         public MainPlus1Number()
         {
@@ -122,7 +141,7 @@ namespace AppGameTrueFalse
 
         private void dung_Click(object sender, RoutedEventArgs e)
         {
-            ProgressBar();
+            
             if (gtdung == true)
             {
                 score = score +1;
@@ -140,6 +159,7 @@ namespace AppGameTrueFalse
                 (App.Current as App).score = score;
                 (App.Current as App).pageso = pageso;
             }
+            ProgressBar();
         }
 
         private void sai_Click(object sender, RoutedEventArgs e)

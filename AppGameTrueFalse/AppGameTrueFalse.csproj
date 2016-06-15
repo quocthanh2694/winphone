@@ -153,6 +153,9 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="3.0\App_Browsers\Navigation.browser" />
+    <None Include="3.0\StateInfo.config" />
+    <None Include="packages.config" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
@@ -165,6 +168,7 @@
     </Content>
     <Content Include="Assets\BadgeLogo.png" />
     <Content Include="Assets\beepclick.mp3" />
+    <Content Include="Assets\hinhnenXam.jpg" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\nhacspectre.mp3" />
     <Content Include="Assets\SplashScreen.png" />
@@ -186,13 +190,25 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\white-wallpaper.jpg" />
     <Content Include="Assets\WideLogo.png" />
+    <Content Include="Assets\anhnen.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CS.Windows.Controls, Version=0.3.0.26859, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsPhoneControls.0.3.0\lib\sl4-windowsphone71\CS.Windows.Controls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Navigation, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Navigation.1.11\lib\3.0\Navigation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
