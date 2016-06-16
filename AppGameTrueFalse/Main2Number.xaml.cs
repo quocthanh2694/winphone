@@ -127,7 +127,7 @@ namespace AppGameTrueFalse
 
         private void dung_Click(object sender, RoutedEventArgs e)
         {
-            ProgressBar();
+           // ProgressBar();
             if (gtdung == true)
             {
                 score++;
@@ -141,16 +141,21 @@ namespace AppGameTrueFalse
 
             else
             {
-                Uri newPage = new Uri("/Page2.xaml", UriKind.Relative);
-                NavigationService.Navigate(newPage);
-                (App.Current as App).score = score;
-                (App.Current as App).pageso = pageso;
+                GameOver();
             }
+        }
+
+        private void GameOver()
+        {
+            Uri newPage = new Uri("/GameOver.xaml", UriKind.Relative);
+            NavigationService.Navigate(newPage);
+            (App.Current as App).score = score;
+            (App.Current as App).pageso = pageso;
         }
 
         private void sai_Click(object sender, RoutedEventArgs e)
         {
-            ProgressBar();
+           // ProgressBar();
             if (gtdung == false)
             {
                 score++;
@@ -163,10 +168,7 @@ namespace AppGameTrueFalse
             }
             else
             {
-                Uri newPage = new Uri("/Page2.xaml", UriKind.Relative);
-                NavigationService.Navigate(newPage);
-                (App.Current as App).score = score;
-                (App.Current as App).pageso = pageso;
+                GameOver();
             }
         }
     }

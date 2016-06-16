@@ -21,8 +21,6 @@ D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Help.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Main2Number.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Main1Number.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\OptionPage.g.cs
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Page1.g.cs
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Page2.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.g.resources
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.Resources.AppResources.resources
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\FreakingMath.csproj.GenerateResource.Cache
@@ -45,6 +43,9 @@ D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\MultipleQuali
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\ProjectArchitectures.txt
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\MDILProjectFiles.xml
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\XapCacheFile.xml
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\FreakingMath.csprojResolveAssemblyReference.cache
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\GameOver.g.cs
+D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Page1.g.cs
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\layout.resfiles
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\layout.resfiles.intermediate
 D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\Navigation\Resources.resfiles

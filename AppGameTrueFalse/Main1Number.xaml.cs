@@ -22,11 +22,12 @@ namespace AppGameTrueFalse
         int so1=0, so2=0, kq=0,kqdc=0,kqdt=0,sorandtr2=0,sorandsau2=0,score,pageso=0;
         private DispatcherTimer dispatcherTimer;
         // Constructor
-        int demTG=0,i=0;
+        int demTG=0,dem=0;
         int thoiGianbanDau = 150;
-        int thoiGianTruDi1Lan = 5;
-        int thoiGianCoDinh = 35;
-        int thoiGianTickMilisecond = 35;
+        int thoiGianTruDi1Lan = 10;
+        int thoiGianCoDinh = 70;
+        int thoiGianTickMilisecond = 10;
+        int thoiGianGiamSauSoLan = 10;
 
         public int SoSanh2So(int a,int b)
         {
@@ -146,7 +147,7 @@ namespace AppGameTrueFalse
         {
             progressBar.Value = demTG;
             //do whatever you want to do here
-            time.Text = "Time: " + demTG;
+            time.Text = "Time: " + (float)demTG/100;
             demTG = demTG - 1;
             //Thread.Sleep(10);
             if (demTG == 0)
@@ -188,19 +189,30 @@ namespace AppGameTrueFalse
         {
             dispatcherTimer.Stop();
 
-            Uri newPage = new Uri("/Page2.xaml", UriKind.Relative);
+            Uri newPage = new Uri("/GameOver.xaml", UriKind.Relative);
             NavigationService.Navigate(newPage);
             (App.Current as App).score = score;
             (App.Current as App).pageso = pageso;
         }
         void SetTime()
         {
-            
-                demTG = thoiGianbanDau - i;
+            dem++;
+            //if (dem % 10 == 0)
+            //{
+            //    i += thoiGianTruDi1Lan;
+            //    demTG = thoiGianbanDau - i;
+                
+            //    progressBar.Maximum = demTG;
+            //}
+            //else
+            //{
+                demTG = thoiGianbanDau - (dem / thoiGianGiamSauSoLan) * thoiGianTruDi1Lan;
+            //}
+            progressBar.Maximum = demTG;
             if (demTG < thoiGianCoDinh)
                 demTG = thoiGianCoDinh;
-            progressBar.Maximum = demTG;
-            i+=thoiGianTruDi1Lan;
+          
+            
             TimerTick();
         }
         private void dung_Click(object sender, RoutedEventArgs e)
@@ -221,7 +233,7 @@ namespace AppGameTrueFalse
             {
                 GameOver();
             }
-            ProgressBar();
+        //    ProgressBar();
         }
 
         private void sai_Click(object sender, RoutedEventArgs e)
