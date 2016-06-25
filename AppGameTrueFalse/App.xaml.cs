@@ -12,10 +12,12 @@ namespace AppGameTrueFalse
 {
     public partial class App : Application
     {
-        public int score;
-        public int diemcaonhat1;
-        public int diemcaonhat2;
+        public int score=0;
+        public int diemcaonhat1=0;
+        public int diemcaonhat2=0;
         public int pageso;
+        public int mang = 1;
+        public double perc = 0.8;
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>

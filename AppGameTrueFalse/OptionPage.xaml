@@ -21,17 +21,19 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Margin="0,11,0,165" Grid.RowSpan="2" >
+        <StackPanel Margin="0,11,0,165" Grid.RowSpan="2" RenderTransformOrigin="0.484,0.276" >
             <TextBlock Text="Option" Margin="0,0,0,5" Height="70" FontSize="50"/>
             <TextBlock Text="Basic Slider:" Margin="0,0,0,5" Height="37"/>
             <Slider x:Name="slider1" 
         		Minimum="0" 
         		Maximum="10" />
-
-            <TextBlock Text="Slider with ValueChanged event handler:" Margin="0,25,0,0"/>
+            <TextBlock x:Name="percenttxt" Height="44" VerticalAlignment="Top" Margin="0,0,32,0" Text="Percent: 80"  FontSize="25" RenderTransformOrigin="0.523,2.784"
+            	TextWrapping="Wrap" HorizontalAlignment="Right" Width="438"  
+                     />
             <Slider x:Name="slider2"  
         		Minimum="0" 
-        		Maximum="10" ValueChanged="slider2_ValueChanged"
+        		Maximum="100" 
+                       Value="1"             ValueChanged="slider2_ValueChanged"
         		 />
             <TextBlock x:Name="textBlock1"
         		Margin="0,0,0,10"

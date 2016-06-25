@@ -10,6 +10,8 @@ using Microsoft.Phone.Shell;
 using System.Windows.Media.Animation;
 using System.Threading;
 using System.Windows.Threading;
+using System.Windows.Media;
+
 //using Windows.UI.Xaml.Navigation;
 
 
@@ -22,12 +24,15 @@ namespace AppGameTrueFalse
         int so1=0, so2=0, kq=0,kqdc=0,kqdt=0,sorandtr2=0,sorandsau2=0,score,pageso=0;
         private DispatcherTimer dispatcherTimer;
         // Constructor
-        int demTG=0,dem=0;
+        double percent = 100; // >% thời gian
+        double per = 1;
+        int thoigiantam = 0;// Tách thời gian khi người dùng click
+        int demTG=0,dem=0,mang,level=1;
         int thoiGianbanDau = 150;
         int thoiGianTruDi1Lan = 10;
         int thoiGianCoDinh = 70;
         int thoiGianTickMilisecond = 10;
-        int thoiGianGiamSauSoLan = 10;
+        int thoiGianGiamSauSoLan = 5;// thời gian giảm tổng giờ sau (số) lần click đúng
 
         public int SoSanh2So(int a,int b)
         {
@@ -146,13 +151,27 @@ namespace AppGameTrueFalse
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
             progressBar.Value = demTG;
+            
             //do whatever you want to do here
+
             time.Text = "Time: " + (float)demTG/100;
             demTG = demTG - 1;
             //Thread.Sleep(10);
             if (demTG == 0)
             {
+                SetTime();
                 GameOver();
+                
+            }
+            if (demTG < percent)
+            {
+                progressBar.Foreground = new SolidColorBrush(Color.FromArgb(255, 225, 9,17));
+                
+            }
+            else
+            {
+                progressBar.Foreground = new SolidColorBrush(Color.FromArgb(255, 0, 255, 0));
+
             }
 
 
@@ -167,8 +186,10 @@ namespace AppGameTrueFalse
         }
         public MainPlus1Number()
         {
+            
             InitializeComponent();
-
+            amthanh.Source = new Uri("/Assets/nhacspectre.mp3", UriKind.RelativeOrAbsolute);
+            amthanh.Play();
             demTG = thoiGianbanDau;
 
             progressBar.Maximum = demTG;
@@ -180,47 +201,89 @@ namespace AppGameTrueFalse
 
             TimerTick();
 
-            amthanh.Source = new Uri("/Assets/nhacspectre.mp3", UriKind.RelativeOrAbsolute);
+            mang = (App.Current as App).mang;
+            mangtxt.Text = "Life: " + mang.ToString();
+            tongtgtxt.Text = thoiGianbanDau.ToString();
+            per = (App.Current as App).perc;
+            percent = thoiGianbanDau * per;
+
             pageso = 1;
-            amthanh.Play();
+            
             Kiemtra();
         }
         void GameOver()
         {
-            dispatcherTimer.Stop();
+            mang--;
+            if (mang <1)
+            {
+                dispatcherTimer.Stop();
 
-            Uri newPage = new Uri("/GameOver.xaml", UriKind.Relative);
-            NavigationService.Navigate(newPage);
-            (App.Current as App).score = score;
-            (App.Current as App).pageso = pageso;
+                Uri newPage = new Uri("/GameOver.xaml", UriKind.Relative);
+                NavigationService.Navigate(newPage);
+                (App.Current as App).score = score;
+                (App.Current as App).pageso = pageso;
+            }
+            else
+            {
+                mangtxt.Text = "Life: " + mang.ToString();
+                Kiemtra();
+            }
         }
+
         void SetTime()
         {
-            dem++;
-            //if (dem % 10 == 0)
-            //{
-            //    i += thoiGianTruDi1Lan;
-            //    demTG = thoiGianbanDau - i;
-                
-            //    progressBar.Maximum = demTG;
-            //}
-            //else
-            //{
+
+
+            // Set level
+            if (dem % thoiGianGiamSauSoLan == 0)
+            {
+                level++;
+                leveltxt.Text = "Level: " + level.ToString();
+            }
+
+            // Set thời gian tạm để cộng mạng
+           
+            // Set đếm thời gian
                 demTG = thoiGianbanDau - (dem / thoiGianGiamSauSoLan) * thoiGianTruDi1Lan;
-            //}
+           
             progressBar.Maximum = demTG;
             if (demTG < thoiGianCoDinh)
                 demTG = thoiGianCoDinh;
-          
-            
+
+            tongtgtxt.Text = demTG.ToString();
+            // Set % cộng mạng
+            percent = demTG*per;
+
             TimerTick();
+
+
+            ////them am thanh choi 
+            //amthanhclick.Source = new Uri("/Assets/beepclick.mp3", UriKind.Absolute);
+            //amthanhclick.Play();
+
+            //amthanh.Play();
+
+        }
+        void CongMang()
+        {
+            if (demTG >= percent)
+            {
+                mang++;
+                mangtxt.Text = "Life: " + mang.ToString();
+            }
         }
         private void dung_Click(object sender, RoutedEventArgs e)
         {
+            
 
-            SetTime();
             if (gtdung == true)
             {
+                CongMang();
+                dem++;
+                SetTime();
+
+                
+                
                 score = score +1;
                 diem.Text = "Score: " + score.ToString();
 
@@ -231,17 +294,22 @@ namespace AppGameTrueFalse
             }           
             else
             {
+                SetTime();
                 GameOver();
             }
-        //    ProgressBar();
+            
+            //    ProgressBar();
         }
 
         private void sai_Click(object sender, RoutedEventArgs e)
         {
-            SetTime();
-
             if (gtdung == false)
             {
+                CongMang();
+                dem++;
+                SetTime();
+
+
                 score = score + 1; 
                 diem.Text = "Score: " + score.ToString();
 
@@ -252,8 +320,16 @@ namespace AppGameTrueFalse
             }
             else
             {
+                SetTime();
                 GameOver();
             }
+            
+        }
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            //Do your work here
+            dispatcherTimer.Stop();
+            base.OnBackKeyPress(e);
         }
     }
 }

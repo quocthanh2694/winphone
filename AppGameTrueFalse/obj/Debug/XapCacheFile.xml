@@ -1,6 +1,6 @@
-﻿<xapCache source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="6/16/2016 1:57:09 PM">
-  <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="6/16/2016 1:57:07 PM" />
-  <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.dll" archivePath="AppGameTrueFalse.dll" lastWriteTime="6/16/2016 1:57:07 PM" />
+﻿<xapCache source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="6/24/2016 12:54:34 PM">
+  <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="6/24/2016 12:54:31 PM" />
+  <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.dll" archivePath="AppGameTrueFalse.dll" lastWriteTime="6/24/2016 12:54:29 PM" />
   <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="5/27/2016 10:02:59 PM" />
   <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="5/31/2016 9:02:18 PM" />
   <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\beepclick.mp3" archivePath="Assets\beepclick.mp3" lastWriteTime="5/28/2016 9:34:28 AM" />
@@ -25,6 +25,6 @@
   <file source="D:\ttt\projectWinphone\AppGameTrueFalse\packages\Navigation.1.11\lib\3.0\Navigation.dll" archivePath="Navigation.dll" lastWriteTime="1/2/2015 2:34:30 PM" />
   <file source="D:\ttt\projectWinphone\AppGameTrueFalse\packages\Navigation.1.11\lib\3.0\Navigation.xml" archivePath="Navigation.xml" lastWriteTime="1/2/2015 2:34:30 PM" />
   <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="6/2/2016 10:40:50 PM" />
-  <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="6/16/2016 1:57:08 PM" />
-  <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="6/16/2016 1:57:07 PM" />
+  <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="6/24/2016 12:54:33 PM" />
+  <file source="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="6/17/2016 12:21:44 PM" />
 </xapCache>
