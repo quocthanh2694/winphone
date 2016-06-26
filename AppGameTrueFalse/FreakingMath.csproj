@@ -214,6 +214,9 @@
       <HintPath>..\packages\WindowsPhoneControls.0.3.0\lib\sl4-windowsphone71\CS.Windows.Controls.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\..\GameAppMobile\BlogProgressPopup\BlogProgressPopup\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Navigation, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Navigation.1.11\lib\3.0\Navigation.dll</HintPath>
       <Private>True</Private>

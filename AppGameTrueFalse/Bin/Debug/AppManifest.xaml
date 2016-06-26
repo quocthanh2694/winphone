@@ -2,6 +2,8 @@
   <Deployment.Parts>
     <AssemblyPart x:Name="AppGameTrueFalse" Source="AppGameTrueFalse.dll" />
     <AssemblyPart x:Name="CS.Windows.Controls" Source="CS.Windows.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
     <AssemblyPart x:Name="Navigation" Source="Navigation.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
   </Deployment.Parts>
 </Deployment>

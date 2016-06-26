@@ -1,1 +1,1 @@
-D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\FreakingMath.csproj;neutral
+E:\FreakingMath\AppGameTrueFalse\FreakingMath.csproj;neutral

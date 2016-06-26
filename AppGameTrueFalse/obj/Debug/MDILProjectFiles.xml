@@ -24,7 +24,10 @@
     <File>Assets\ApplicationIcon.png</File>
     <File>Assets\Tiles\FlipCycleTileMedium.png</File>
     <File>CS.Windows.Controls.dll</File>
+    <File>Microsoft.Phone.Controls.Toolkit.dll</File>
     <File>Navigation.dll</File>
+    <File>Microsoft.Phone.Controls.dll</File>
+    <File>Microsoft.Phone.Controls.Toolkit.xml</File>
     <File>Navigation.xml</File>
     <File>WMAppManifest.xml</File>
     <File>AppxManifest.xml</File>
