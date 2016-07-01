@@ -18,6 +18,7 @@ namespace AppGameTrueFalse
         public int pageso;
         public int mang = 1;
         public double perc = 0.8;
+        public int chon;
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>

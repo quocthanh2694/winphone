@@ -1,98 +1,107 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-13PL3UR</Machine>
-    <WindowsUser>Tran</WindowsUser>
+    <Machine>DESKTOP-LH5NJ3D</Machine>
+    <WindowsUser>THUY</WindowsUser>
     <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>1bb74c06-c2cd-4dcf-a9fb-ab9f66d12f43</PackageIdentityName>
-    <IntermediateOutputPath>D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\FreakingMath\AppGameTrueFalse\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse.dll">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse.dll">
       <PackagePath>AppGameTrueFalse.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\packages\WindowsPhoneControls.0.3.0\lib\sl4-windowsphone71\CS.Windows.Controls.dll">
+    <AppxPackagedFile Include="E:\FreakingMath\packages\WindowsPhoneControls.0.3.0\lib\sl4-windowsphone71\CS.Windows.Controls.dll">
       <PackagePath>CS.Windows.Controls.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\packages\Navigation.1.11\lib\3.0\Navigation.dll">
+    <AppxPackagedFile Include="E:\GameAppMobile\BlogProgressPopup\BlogProgressPopup\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\FreakingMath\packages\Navigation.1.11\lib\3.0\Navigation.dll">
       <PackagePath>Navigation.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\packages\Navigation.1.11\lib\3.0\Navigation.xml">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.dll">
+      <PackagePath>Microsoft.Phone.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GameAppMobile\BlogProgressPopup\BlogProgressPopup\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\FreakingMath\packages\Navigation.1.11\lib\3.0\Navigation.xml">
       <PackagePath>Navigation.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\AlignmentGrid.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\AlignmentGrid.png">
       <PackagePath>Assets\AlignmentGrid.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\ApplicationIcon.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\ApplicationIcon.png">
       <PackagePath>Assets\ApplicationIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\BadgeLogo.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\BadgeLogo.png">
       <PackagePath>Assets\BadgeLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\Logo.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\SquareTile150x150.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\SquareTile150x150.png">
       <PackagePath>Assets\SquareTile150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\SquareTile71x71.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\SquareTile71x71.png">
       <PackagePath>Assets\SquareTile71x71.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\Tiles\FlipCycleTileLarge.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\Tiles\FlipCycleTileLarge.png">
       <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\Tiles\FlipCycleTileMedium.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\Tiles\FlipCycleTileMedium.png">
       <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\Tiles\FlipCycleTileSmall.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\Tiles\FlipCycleTileSmall.png">
       <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\Tiles\IconicTileMediumLarge.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\Tiles\IconicTileMediumLarge.png">
       <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\Tiles\IconicTileSmall.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\WideLogo.png">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\beepclick.mp3">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\beepclick.mp3">
       <PackagePath>Assets\beepclick.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\nhacspectre.mp3">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\nhacspectre.mp3">
       <PackagePath>Assets\nhacspectre.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\hinhnenXam.jpg">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\hinhnenXam.jpg">
       <PackagePath>Assets\hinhnenXam.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\white-wallpaper.jpg">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\white-wallpaper.jpg">
       <PackagePath>Assets\white-wallpaper.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Assets\anhnen.jpg">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Assets\anhnen.jpg">
       <PackagePath>Assets\anhnen.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ttt\projectWinphone\AppGameTrueFalse\AppGameTrueFalse\Bin\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

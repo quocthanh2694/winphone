@@ -13,6 +13,7 @@ namespace AppGameTrueFalse
     public partial class OptionPage : PhoneApplicationPage
     {
         float soslider;
+        int chon;
         string s = "Value of add life: ";
         public OptionPage()
         {
@@ -84,6 +85,23 @@ namespace AppGameTrueFalse
             }
             catch { }
 
+        }
+        private void toastToggle_Checked(object sender, RoutedEventArgs e)
+        {
+            tgw.Content = "Hard";
+            chon = 2;
+        }
+
+        private void toastToggle_Unchecked(object sender, RoutedEventArgs e)
+        {
+            tgw.Content = "Easy";
+            chon = 1;
+        }
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Uri newPage = new Uri("/Page1.xaml", UriKind.Relative);
+            NavigationService.Navigate(newPage);
+            (App.Current as App).chon = chon;
         }
     }
 }

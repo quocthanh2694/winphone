@@ -28,12 +28,49 @@ namespace AppGameTrueFalse
         double per = 1;
         int thoigiantam = 0;// Tách thời gian khi người dùng click
         int demTG=0,dem=0,mang,level=1;
-        int thoiGianbanDau = 150;
-        int thoiGianTruDi1Lan = 10;
-        int thoiGianCoDinh = 70;
-        int thoiGianTickMilisecond = 10;
+        //int thoiGianbanDau = 150;
+        //int thoiGianTruDi1Lan = 10;
+        //int thoiGianCoDinh = 70;
+        //int thoiGianTickMilisecond = 10;
+
+
+        int thoiGianbanDau;
+        int thoiGianTruDi1Lan;
+        int thoiGianCoDinh;
+        int thoiGianTickMilisecond;
+
         int thoiGianGiamSauSoLan = 5;// thời gian giảm tổng giờ sau (số) lần click đúng
 
+
+        int chonmucdo;
+        private void XetDoKhoTime()
+        {
+            OptionChoice();
+            if (chonmucdo == 1)
+            {
+                thoiGianbanDau = 150;
+                thoiGianTruDi1Lan = 5;
+                thoiGianCoDinh = 35;
+                thoiGianTickMilisecond = 35;
+            }
+            if (chonmucdo == 2)
+            {
+                thoiGianbanDau = 120;
+                thoiGianTruDi1Lan = 5;
+                thoiGianCoDinh = 35;
+                thoiGianTickMilisecond = 35;
+            }
+        }
+
+        private void OptionChoice()
+        {
+            if ((App.Current as App).chon == 0)
+            {
+                chonmucdo = 1;
+            }
+            else
+                chonmucdo = (App.Current as App).chon;
+        }
         public int SoSanh2So(int a,int b)
         {
             if(a > b)
@@ -188,6 +225,7 @@ namespace AppGameTrueFalse
         {
             
             InitializeComponent();
+            XetDoKhoTime();
             amthanh.Source = new Uri("/Assets/nhacspectre.mp3", UriKind.RelativeOrAbsolute);
             amthanh.Play();
             demTG = thoiGianbanDau;
