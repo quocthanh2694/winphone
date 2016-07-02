@@ -6,11 +6,11 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
@@ -41,38 +41,99 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28"/>
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Margin="14,35,10,10" Grid.RowSpan="2">
-            <Grid.Background>
-                <ImageBrush Stretch="Fill" ImageSource="/Assets/hinhnenXam.jpg"/>
-            </Grid.Background>
-            <TextBlock x:Name="lb_so1" HorizontalAlignment="Left" Margin="76,233,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Height="72" Width="111" Foreground="#FFFF2E00" FontWeight="Bold" FontSize="50" TextAlignment="Center" RenderTransformOrigin="0.956,0.45"/>
-            <Button x:Name="dung" Content="True" HorizontalAlignment="Left" Margin="10,534,0,0" VerticalAlignment="Top" Height="107" Width="201" BorderBrush="Black" Foreground="White" FontSize="50" FontWeight="Bold" Click="dung_Click">
-                <Button.Background>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FF0080FF" Offset="0"/>
-                        <GradientStop Color="#FF0080FF" Offset="1"/>
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-            <Button x:Name="sai" Content="False" HorizontalAlignment="Left" Margin="245,534,0,0" VerticalAlignment="Top" Height="107" Width="201" BorderBrush="Black" Foreground="White" FontSize="50" FontWeight="Bold" Click="sai_Click">
-                <Button.Background>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FF0080FF" Offset="0"/>
-                        <GradientStop Color="#FF0080FF" Offset="1"/>
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-            <TextBlock x:Name="diem" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" Height="51" Width="155" Foreground="#FFFF1700" FontSize="30" FontWeight="Bold"/>
-            <TextBlock x:Name="time" HorizontalAlignment="Left" Margin="291,10,0,0" TextWrapping="Wrap" Text="Time:" VerticalAlignment="Top" Height="51" Width="155" Foreground="#FFFF1700" FontSize="30" FontWeight="Bold"/>
-            <MediaElement x:Name="amthanh" HorizontalAlignment="Left" Height="100" Margin="304,106,0,0" VerticalAlignment="Top" Width="100"/>
-            <TextBlock x:Name="lbdau" HorizontalAlignment="Left" Margin="132,211,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Height="94" Width="189" Foreground="#FFFF2E00" FontWeight="Bold" FontSize="70" TextAlignment="Center" RenderTransformOrigin="1.742,0.622"/>
-            <TextBlock x:Name="lb_so2" HorizontalAlignment="Left" Margin="291,233,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Height="72" Width="113" Foreground="#FFFF2E00" FontWeight="Bold" FontSize="50" TextAlignment="Center"/>
-            <TextBlock x:Name="lbbang" HorizontalAlignment="Left" Margin="130,288,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="72" Width="110" Foreground="#FFFF2E00" FontWeight="Bold" FontSize="50" TextAlignment="Center" RenderTransformOrigin="0.956,0.45"/>
-            <TextBlock x:Name="lb_kq" HorizontalAlignment="Left" Margin="187,288,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Height="72" Width="111" Foreground="Red" FontWeight="Bold" FontSize="50" TextAlignment="Center" RenderTransformOrigin="0.956,0.45"/>
-            <ProgressBar HorizontalAlignment="Left" Height="10" Margin="0,76,0,0" VerticalAlignment="Top" Name="progressBar" Width="456" Maximum="2" Value="2" Background="#1960FF06" Foreground="#FF75FF02" />
-            <MediaElement x:Name="amthanhclick" HorizontalAlignment="Left" Height="100" Margin="57,106,0,0" VerticalAlignment="Top" Width="100"/>
 
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.RowSpan="2" HorizontalAlignment="Right" Width="458" Margin="0,0,10,10">
+            <Grid.OpacityMask>
+                <ImageBrush Stretch="Fill"/>
+            </Grid.OpacityMask>
+            <Grid.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/hinhnenXam.jpg" Opacity="2"/>
+            </Grid.Background>
+            <TextBlock x:Name="lb_so1" HorizontalAlignment="Left" Margin="71,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="111" FontWeight="Bold" FontSize="50" TextAlignment="Center" RenderTransformOrigin="0.956,0.45">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            	<Run Text="25"/>
+            </TextBlock>
+            <Button x:Name="dung" Content="True" 
+                    
+                    HorizontalAlignment="Left" Margin="10,534,0,0" VerticalAlignment="Top" Height="107" Width="201" BorderBrush="#FF0080FF" Foreground="White" FontSize="50" FontWeight="Bold" Click="dung_Click" RenderTransformOrigin="0,0">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF08D2FF" Offset="0.016"/>
+                        <GradientStop Color="#FF0080FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="sai" Content="False" HorizontalAlignment="Left" Margin="245,534,0,0" VerticalAlignment="Top" Height="107" Width="201" BorderBrush="#FF0080FF" Foreground="White" FontSize="50" FontWeight="Bold" Click="sai_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF08D2FF" Offset="0.016"/>
+                        <GradientStop Color="#FF0080FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <TextBlock x:Name="diem" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="155" Foreground="Red" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.523,2.784">
+            	<Run Text="Score"/>
+            	<Run Text=": 0"/>
+            </TextBlock>
+            <TextBlock x:Name="time" HorizontalAlignment="Left" Margin="291,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="155" Foreground="Red" FontSize="30" FontWeight="Bold">
+            	<Run Text="Time"/>
+            	<Run Text=":"/>
+            </TextBlock>
+            <MediaElement x:Name="amthanh" HorizontalAlignment="Left" Height="49" Margin="130,392,0,0" VerticalAlignment="Top" Width="35"/>
+            <TextBlock x:Name="lbdau" HorizontalAlignment="Left" Margin="132,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="94" Width="189" FontWeight="Bold" FontSize="70" TextAlignment="Center" RenderTransformOrigin="1.742,0.622">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            	<Run Text="25"/>
+            </TextBlock>
+            <TextBlock x:Name="lb_so2" HorizontalAlignment="Left" Margin="267,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="113" FontWeight="Bold" FontSize="50" TextAlignment="Center">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            	<Run Text="25"/>
+            </TextBlock>
+            <TextBlock x:Name="lbbang" HorizontalAlignment="Left" Margin="130,288,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="72" Width="110" FontWeight="Bold" FontSize="50" TextAlignment="Center" RenderTransformOrigin="0.956,0.45">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <TextBlock x:Name="lb_kq" HorizontalAlignment="Left" Margin="187,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="111" FontWeight="Bold" FontSize="50" TextAlignment="Center" RenderTransformOrigin="0.956,0.45">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            	<Run Text="25"/>
+            </TextBlock>
+            <ProgressBar Height="25" Margin="0,76,0,0" VerticalAlignment="Top" Name="progressBar" Maximum="200" Value="200" Foreground="#FF46FF00" Background="White" BorderBrush="Black" RenderTransformOrigin="0.492,0.477" />
+
+            <MediaElement x:Name="amthanhclick" HorizontalAlignment="Left" Height="49" Margin="53,392,0,0" VerticalAlignment="Top" Width="37"/>
+
+            <TextBlock x:Name="mangtxt" Height="77" VerticalAlignment="Top" Margin="10,101,303,0" Text="Life: 1"  Foreground="#FF177E00" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.523,2.784"
+                   TextWrapping="Wrap"  
+                     />
+            <TextBlock x:Name="tongtgtxt" Height="28" VerticalAlignment="Top" Margin="395,54,10,0" Text="1000"  Foreground="#FF177E00" FontSize="20" FontWeight="Bold" RenderTransformOrigin="0.523,2.784"
+                   TextWrapping="Wrap"  
+                     />
+            <TextBlock x:Name="leveltxt" Height="77" VerticalAlignment="Top" Margin="291,101,32,0" Text="Level: 1"  Foreground="#FF177E00" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.523,2.784"
+                   TextWrapping="Wrap"  
+                     />
 
         </Grid>
 
@@ -83,6 +144,8 @@
 
             Before shipping remove this XAML and the image itself.-->
         <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
+
     </Grid>
+
 
 </phone:PhoneApplicationPage>

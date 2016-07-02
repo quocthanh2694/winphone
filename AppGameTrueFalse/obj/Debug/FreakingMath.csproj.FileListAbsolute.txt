@@ -106,3 +106,11 @@ E:\FreakingMath\AppGameTrueFalse\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
 E:\FreakingMath\AppGameTrueFalse\Bin\Debug\Microsoft.Phone.Controls.dll
 E:\FreakingMath\AppGameTrueFalse\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
 E:\FreakingMath\AppGameTrueFalse\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+E:\FreakingMath\AppGameTrueFalse\obj\Debug\Navigation\layout.resfiles
+E:\FreakingMath\AppGameTrueFalse\obj\Debug\Navigation\layout.resfiles.intermediate
+E:\FreakingMath\AppGameTrueFalse\obj\Debug\Navigation\Resources.resfiles
+E:\FreakingMath\AppGameTrueFalse\obj\Debug\Navigation\Resources.resfiles.intermediate
+E:\FreakingMath\AppGameTrueFalse\obj\Debug\Navigation\pri.resfiles
+E:\FreakingMath\AppGameTrueFalse\obj\Debug\Navigation\pri.resfiles.intermediate
+E:\FreakingMath\AppGameTrueFalse\obj\Debug\Navigation\priconfig.xml
+E:\FreakingMath\AppGameTrueFalse\obj\Debug\Navigation\priconfig.xml.intermediate

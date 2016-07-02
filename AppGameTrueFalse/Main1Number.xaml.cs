@@ -156,35 +156,7 @@ namespace AppGameTrueFalse
                 }
             }
         }
-        private void ProgressBar()
-        {
-            //var storyboard = new Storyboard();
 
-            //var animation = new DoubleAnimation { Duration = TimeSpan.FromSeconds(2), From = 100, To = 0, EnableDependentAnimation = true };
-
-            //Storyboard.SetTarget(animation, this.progressBar);
-            //Storyboard.SetTargetProperty(animation, "Value");
-
-            //storyboard.Children.Add(animation); 
-
-            //storyboard.Begin();
-
-            //progressBar.Value = 100;
-            //progressBar.Maximum = 100;
-            //for (int i = 100; i > 0; i--)
-            //{
-            //    progressBar.Value--;
-            //   // Thread.Sleep(100);
-
-            //}
-
-
-        }
-
-
-
-
-       
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
             progressBar.Value = demTG;

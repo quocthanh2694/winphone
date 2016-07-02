@@ -43,7 +43,7 @@
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28"/>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Margin="24,35,0,10" Grid.RowSpan="2">
+        <Grid x:Name="ContentPanel" Grid.RowSpan="2" HorizontalAlignment="Right" Width="458" Margin="0,0,10,10">
             <Grid.OpacityMask>
                 <ImageBrush Stretch="Fill"/>
             </Grid.OpacityMask>
