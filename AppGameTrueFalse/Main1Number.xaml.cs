@@ -88,12 +88,13 @@ namespace AppGameTrueFalse
         }
         public void Kiemtra()
         {
+            //random so
             r = new Random();
             so1 = r.Next(1,9);
             so2 = r.Next(1, 9);
             kqdc = so1 + so2;
             kqdt = so1 - so2;
-          
+            //random dau'
             if (r.Next(0, 9) % 2 == 0)
             {
                 lbdau.Text = "-";
@@ -102,6 +103,7 @@ namespace AppGameTrueFalse
             {
                 lbdau.Text = "+";
             }
+            //
             if (lbdau.Text == "+")
             { 
                 sorandtr2 = kqdc - 2;

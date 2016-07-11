@@ -1,6 +1,6 @@
-﻿<xapCache source="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="02-Jul-16 7:20:36 AM">
-  <file source="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="02-Jul-16 7:20:34 AM" />
-  <file source="E:\FreakingMath\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.dll" archivePath="AppGameTrueFalse.dll" lastWriteTime="02-Jul-16 7:20:34 AM" />
+﻿<xapCache source="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\AppGameTrueFalse_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="04-Jul-16 1:18:55 PM">
+  <file source="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="04-Jul-16 1:18:53 PM" />
+  <file source="E:\FreakingMath\AppGameTrueFalse\obj\Debug\AppGameTrueFalse.dll" archivePath="AppGameTrueFalse.dll" lastWriteTime="04-Jul-16 1:18:52 PM" />
   <file source="E:\FreakingMath\AppGameTrueFalse\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="26-Jun-16 10:49:07 AM" />
   <file source="E:\FreakingMath\AppGameTrueFalse\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="26-Jun-16 10:49:07 AM" />
   <file source="E:\FreakingMath\AppGameTrueFalse\Assets\beepclick.mp3" archivePath="Assets\beepclick.mp3" lastWriteTime="26-Jun-16 10:49:07 AM" />
@@ -34,6 +34,6 @@
   <file source="E:\FreakingMath\AppGameTrueFalse\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="26-Jun-16 10:49:07 AM" />
   <file source="E:\FreakingMath\AppGameTrueFalse\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="26-Jun-16 10:49:07 AM" />
   <file source="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="26-Jun-16 10:49:07 AM" />
-  <file source="E:\FreakingMath\AppGameTrueFalse\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="02-Jul-16 7:20:35 AM" />
+  <file source="E:\FreakingMath\AppGameTrueFalse\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="04-Jul-16 1:18:55 PM" />
   <file source="E:\FreakingMath\AppGameTrueFalse\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="26-Jun-16 12:31:32 PM" />
 </xapCache>
